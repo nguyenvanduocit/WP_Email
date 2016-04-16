@@ -1,0 +1,17 @@
+{
+    "name": "nguyenvanduocit/wpmail",
+    "authors": [
+        {
+            "name": "Duoc Nguyen",
+            "email": "nguyenvanduocit@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WP_Mail\\": "inc/"
+        }
+    },
+    "require": {
+        "mailgun/mailgun-php": "^1.8"
+    }
+}
